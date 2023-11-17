@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 主内容视图一定要是DrawerLayout的第一个子视图【必须】 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 引入导航栏 -->
+        <include
+            android:id="@+id/main_navbar"
+            layout="@layout/activity_main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容区域"
+            android:textSize="22sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- 右侧区域侧边栏 -->
+    <fragment
+        android:id="@+id/fragment_rightmenu"
+        android:name="com.example.databasequery.rightListFragment"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:tag="Right" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

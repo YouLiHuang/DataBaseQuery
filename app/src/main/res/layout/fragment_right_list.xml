@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页界面的左侧侧边栏界面布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3E3E3">
+    <TextView
+        android:id="@+id/tv_show1"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能1"
+        android:textSize="25sp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#aa000000" />
+    <TextView
+        android:id="@+id/tv_show2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能2"
+        android:textSize="25sp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#aa000000" />
+    <TextView
+        android:id="@+id/tv_show3"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能3"
+        android:textSize="25sp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#aa000000" />
+
+</LinearLayout>

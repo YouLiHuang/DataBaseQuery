@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/id_menu"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@drawable/list1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:src="@drawable/back">
+            </ImageView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#aa000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <Button
+            android:id="@+id/bnt_save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="本地查询"
+            android:textSize="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_button">
+        </Button>
+
+        <Button
+            android:id="@+id/bnt_read"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="语音查询"
+            android:textSize="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_button">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
